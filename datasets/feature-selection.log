@@ -1,0 +1,85 @@
+Training ExtraTreesClassifier...
+ExtraTreesClassifier trained
+
+Feature: protocol, Importance: 0.1357531821547258
+Feature: bidirectional_first_seen_ms, Importance: 0.0012551594672750516
+Feature: bidirectional_last_seen_ms, Importance: 0.0013142640561081356
+Feature: bidirectional_duration_ms, Importance: 0.011010846164795612
+Feature: bidirectional_packets, Importance: 0.0038290866455376474
+Feature: bidirectional_bytes, Importance: 0.003701678422914273
+Feature: src2dst_first_seen_ms, Importance: 0.0013415659127396342
+Feature: src2dst_last_seen_ms, Importance: 0.001297954831050001
+Feature: src2dst_duration_ms, Importance: 0.01194035803814711
+Feature: src2dst_packets, Importance: 0.003631693346933304
+Feature: src2dst_bytes, Importance: 0.003803599289735816
+Feature: dst2src_first_seen_ms, Importance: 0.002638403425850565
+Feature: dst2src_last_seen_ms, Importance: 0.002717545514436445
+Feature: dst2src_duration_ms, Importance: 0.011299506947723106
+Feature: dst2src_packets, Importance: 0.004030670269304012
+Feature: dst2src_bytes, Importance: 0.0035713119429182753
+Feature: bidirectional_min_ps, Importance: 0.03857135709624507
+Feature: bidirectional_mean_ps, Importance: 0.023295496355747312
+Feature: bidirectional_stddev_ps, Importance: 0.037920422709372646
+Feature: bidirectional_max_ps, Importance: 0.07735214860194128
+Feature: src2dst_min_ps, Importance: 0.017722968302338216
+Feature: src2dst_mean_ps, Importance: 0.01856478478513919
+Feature: src2dst_stddev_ps, Importance: 0.036475684482106495
+Feature: src2dst_max_ps, Importance: 0.09080767614926129
+Feature: dst2src_min_ps, Importance: 0.03827415583900916
+Feature: dst2src_mean_ps, Importance: 0.025335390716675246
+Feature: dst2src_stddev_ps, Importance: 0.03623731173264408
+Feature: dst2src_max_ps, Importance: 0.0766012824620649
+Feature: bidirectional_min_piat_ms, Importance: 0.0009228781207658035
+Feature: bidirectional_mean_piat_ms, Importance: 0.010714273391074454
+Feature: bidirectional_stddev_piat_ms, Importance: 0.020566934947603272
+Feature: bidirectional_max_piat_ms, Importance: 0.02892218024268991
+Feature: src2dst_min_piat_ms, Importance: 0.003023125469422633
+Feature: src2dst_mean_piat_ms, Importance: 0.009565148151639195
+Feature: src2dst_stddev_piat_ms, Importance: 0.014103962439357694
+Feature: src2dst_max_piat_ms, Importance: 0.013827306199520063
+Feature: dst2src_min_piat_ms, Importance: 0.002658883965861266
+Feature: dst2src_mean_piat_ms, Importance: 0.009818114823454092
+Feature: dst2src_stddev_piat_ms, Importance: 0.013879996298513221
+Feature: dst2src_max_piat_ms, Importance: 0.014894776536569027
+Feature: bidirectional_syn_packets, Importance: 0.0115843925086715
+Feature: bidirectional_cwr_packets, Importance: 0.0012762997638034277
+Feature: bidirectional_ece_packets, Importance: 0.004314107610858921
+Feature: bidirectional_urg_packets, Importance: 0.0
+Feature: bidirectional_ack_packets, Importance: 0.00303539101582757
+Feature: bidirectional_psh_packets, Importance: 0.003835170493101102
+Feature: bidirectional_rst_packets, Importance: 0.021929399658725705
+Feature: bidirectional_fin_packets, Importance: 0.006360120156735345
+Feature: src2dst_syn_packets, Importance: 0.011783533033456773
+Feature: src2dst_cwr_packets, Importance: 0.0026994855680069155
+Feature: src2dst_ece_packets, Importance: 0.00630798910665139
+Feature: src2dst_urg_packets, Importance: 0.0
+Feature: src2dst_ack_packets, Importance: 0.0026820910395645675
+Feature: src2dst_psh_packets, Importance: 0.0043831848457018124
+Feature: src2dst_rst_packets, Importance: 0.016524545633780346
+Feature: src2dst_fin_packets, Importance: 0.008340621267427862
+Feature: dst2src_syn_packets, Importance: 0.010915522836749698
+Feature: dst2src_cwr_packets, Importance: 1.1488181716667364e-05
+Feature: dst2src_ece_packets, Importance: 0.004045791938815897
+Feature: dst2src_urg_packets, Importance: 0.0
+Feature: dst2src_ack_packets, Importance: 0.0031182149147119063
+Feature: dst2src_psh_packets, Importance: 0.003549732870693712
+Feature: dst2src_rst_packets, Importance: 0.004196917858851773
+Feature: dst2src_fin_packets, Importance: 0.00591291344693677
+
+Selecting features...
+Selected feature: protocol
+Selected feature: bidirectional_min_ps
+Selected feature: bidirectional_mean_ps
+Selected feature: bidirectional_stddev_ps
+Selected feature: bidirectional_max_ps
+Selected feature: src2dst_stddev_ps
+Selected feature: src2dst_max_ps
+Selected feature: dst2src_min_ps
+Selected feature: dst2src_mean_ps
+Selected feature: dst2src_stddev_ps
+Selected feature: dst2src_max_ps
+Selected feature: bidirectional_stddev_piat_ms
+Selected feature: bidirectional_max_piat_ms
+Selected feature: bidirectional_rst_packets
+
+Feature selection done, 14 features selected

@@ -1,0 +1,23 @@
+Label mapping:
+{'BitTorrent': 2,
+ 'Discord': 5,
+ 'HTTP': 4,
+ 'QUIC.Instagram': 7,
+ 'QUIC.YouTube': 1,
+ 'RDP': 8,
+ 'STUN': 6,
+ 'TLS.Facebook': 3,
+ 'TLS.TikTok': 0,
+ 'WhatsApp': 9}
+
+Reverse label mapping:
+{0: 'TLS.TikTok',
+ 1: 'QUIC.YouTube',
+ 2: 'BitTorrent',
+ 3: 'TLS.Facebook',
+ 4: 'HTTP',
+ 5: 'Discord',
+ 6: 'STUN',
+ 7: 'QUIC.Instagram',
+ 8: 'RDP',
+ 9: 'WhatsApp'}
