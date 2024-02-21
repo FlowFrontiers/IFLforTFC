@@ -1,6 +1,6 @@
-# Application of Federated Learning for Traffic Flow Classification in Heterogeneous Data Scenarios
+# Incremental Federated Learning for Traffic Flow Classification in Heterogeneous Data Scenarios
 
-This is the supporting page for the manuscript titled, _"Application of Federated Learning for Traffic Flow Classification in Heterogeneous Data Scenarios."_
+This is the supporting page for the manuscript titled, _"Incremental Federated Learning for Traffic Flow Classification in Heterogeneous Data Scenarios."_
 
 The paper presents a comparative study of Federated Learning models, developed under both IID and non-IID conditions, and a Centralized Learning model. The objective is to perform multi-class traffic flow classification for network applications.
 
