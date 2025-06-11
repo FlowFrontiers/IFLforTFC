@@ -8,6 +8,15 @@ In line with principles of reproducibility and transparency, and to support open
 
 Researchers are encouraged to use this dataset for their investigations and to replicate or extend the findings of this study. The availability of this dataset is expected to support continued research in network flow analysis, thus adding to the body of knowledge in this area.
 
+---
+
+> **📥 Dataset Access**  
+> **Need the dataset? Download it directly from:**  
+> **http://pekar.s.cnl.sk/IFLforTFC/dataset.parquet**  
+> *(Alternative link if repository access is unavailable)*
+
+---
+
 ## Repository Structure
 
 In our repository, the files and scripts are organized as follows:
@@ -69,6 +78,10 @@ To generate the input files for this study, refer to the [1-prepare-datasets.ipy
 ## Dataset
 
 The dataset necessary to execute these notebooks are available at [datasets/dataset.parquet](datasets/dataset.parquet).
+
+> **📥 Alternative Download Link**  
+> **If you experience issues accessing the dataset from the repository, you can download it directly from:**  
+> **http://pekar.s.cnl.sk/IFLforTFC/dataset.parquet**
 
 ## Documentation
 
